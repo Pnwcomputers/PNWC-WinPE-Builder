@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "buildRootExample": "C:\\PNWC-PE",
+  "required": [
+    { "name": "Windows ADK Deployment Tools", "source": "https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install", "storedInGit": false },
+    { "name": "Matching Windows PE add-on and servicing updates", "source": "https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install", "storedInGit": false }
+  ],
+  "optionalLocalInputs": [
+    { "path": "Source/Drivers", "description": "Extracted signed x64 INF driver packages matching target hardware." },
+    { "path": "Source/Updates", "description": "Microsoft MSU packages applicable to the selected WinPE build; review servicing prerequisites and order." },
+    { "path": "Source/Tools/<Category>/<Tool>", "description": "Legitimately obtained, reviewed x64 portable tools and optional launch.txt." },
+    { "path": "Source/Drop/kape.zip", "description": "Optional Kroll-provided KAPE archive; applicable entitlement required." }
+  ],
+  "neverPublish": ["license keys", "downloaded binaries", "WinPE images", "customer reports", "event logs", "memory dumps", "credentials"]
+}

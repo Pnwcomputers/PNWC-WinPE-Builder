@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible builder or launcher problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach disk images, license keys, unredacted reports, or customer data. Report vulnerabilities privately via SECURITY.md.
+  - type: input
+    id: versions
+    attributes:
+      label: Windows, PowerShell, ADK and WinPE add-on versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Command and reproduction steps
+      description: Redact user paths and sensitive identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected behavior and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized error excerpt and relevant tool summary

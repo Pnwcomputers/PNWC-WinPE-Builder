@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "description": "Acquisition recipes only; not a dependency lock, license grant, or compatibility certification.",
+  "tools": [
+    {
+      "name": "Sysinternals Suite",
+      "category": "Sysinternals",
+      "directory": "Sysinternals/Suite",
+      "acquisition": "direct",
+      "upstream": [
+        "https://download.sysinternals.com/files/SysinternalsSuite.zip"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Explorer++",
+      "category": "Utilities",
+      "directory": "Utilities/ExplorerPlusPlus",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/derceg/explorerplusplus"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Notepad++",
+      "category": "Utilities",
+      "directory": "Utilities/NotepadPlusPlus",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/notepad-plus-plus/notepad-plus-plus"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "SumatraPDF",
+      "category": "Utilities",
+      "directory": "Utilities/SumatraPDF",
+      "acquisition": "scrape",
+      "upstream": [
+        "https://www.sumatrapdfreader.org/download-free-pdf-viewer"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Everything",
+      "category": "Utilities",
+      "directory": "Utilities/Everything",
+      "acquisition": "scrape",
+      "upstream": [
+        "https://www.voidtools.com/downloads/"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "WinDirStat",
+      "category": "Storage",
+      "directory": "Storage/WinDirStat",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/windirstat/windirstat"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "CPU-Z",
+      "category": "Hardware",
+      "directory": "Hardware/CPU-Z",
+      "acquisition": "scrape",
+      "upstream": [
+        "https://www.cpuid.com/softwares/cpu-z.html"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "HWiNFO64",
+      "category": "Hardware",
+      "directory": "Hardware/HWiNFO",
+      "acquisition": "direct",
+      "upstream": [
+        "https://sourceforge.net/projects/hwinfo/files/latest/download",
+        "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_834.zip/download"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "CrystalDiskInfo",
+      "category": "Storage",
+      "directory": "Storage/CrystalDiskInfo",
+      "acquisition": "direct",
+      "upstream": [
+        "https://sourceforge.net/projects/crystaldiskinfo/files/latest/download",
+        "https://crystalmark.info/redirect.php?product=CrystalDiskInfo"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "smartmontools",
+      "category": "Storage",
+      "directory": "Storage/smartmontools",
+      "acquisition": "unpack",
+      "upstream": [
+        "https://github.com/smartmontools/smartmontools"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Victoria",
+      "category": "Storage",
+      "directory": "Storage/Victoria",
+      "acquisition": "scrape",
+      "upstream": [
+        "https://hdd.by/victoria/"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "DMDE",
+      "category": "Recovery",
+      "directory": "Recovery/DMDE",
+      "acquisition": "scrape",
+      "upstream": [
+        "https://dmde.com/download.html"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "TestDisk/PhotoRec",
+      "category": "Recovery",
+      "directory": "Recovery/TestDisk",
+      "acquisition": "direct",
+      "upstream": [
+        "https://www.cgsecurity.org/testdisk-7.2.win64.zip",
+        "https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.2.win64.zip"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "PuTTY",
+      "category": "Network",
+      "directory": "Network/PuTTY",
+      "acquisition": "multi",
+      "upstream": [
+        "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe",
+        "https://the.earth.li/~sgtatham/putty/latest/w64/plink.exe",
+        "https://the.earth.li/~sgtatham/putty/latest/w64/psftp.exe"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "iperf3",
+      "category": "Network",
+      "directory": "Network/iperf3",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/ar51an/iperf3-win-builds"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "ClamAV",
+      "category": "Security",
+      "directory": "Security/ClamAV",
+      "acquisition": "scrape",
+      "upstream": [
+        "https://www.clamav.net/downloads"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Hayabusa",
+      "category": "Security",
+      "directory": "Security/Hayabusa",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/Yamato-Security/hayabusa"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Chainsaw",
+      "category": "Security",
+      "directory": "Security/Chainsaw",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/WithSecureOpenSource/chainsaw"
+      ],
+      "winPECompatibility": "unverified"
+    },
+    {
+      "name": "Velociraptor",
+      "category": "Forensics",
+      "directory": "Forensics/Velociraptor",
+      "acquisition": "github",
+      "upstream": [
+        "https://github.com/Velocidex/velociraptor"
+      ],
+      "winPECompatibility": "unverified"
+    }
+  ],
+  "extras": [
+    {
+      "name": "7-Zip",
+      "upstream": "https://www.7-zip.org/",
+      "purpose": "Optional extractor and file manager; preparation execution requires opt-in."
+    },
+    {
+      "name": "KAPE",
+      "upstream": "https://www.kroll.com/en/services/cyber/reactive-services/kroll-artifact-parser-and-extractor-kape",
+      "purpose": "Optional local archive for permitted use; current Kroll terms exclude third-party paid engagements."
+    },
+    {
+      "name": "Ventoy extras",
+      "upstream": [
+        "https://www.memtest86.com/",
+        "https://gparted.org/",
+        "https://clonezilla.org/"
+      ],
+      "purpose": "Optional separate boot payloads; not applications in the WinPE image."
+    }
+  ]
+}
